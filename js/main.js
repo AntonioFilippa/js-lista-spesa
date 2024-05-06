@@ -16,9 +16,13 @@ const listaSpesa = [
   let i = 0;
 
   while(i < listaSpesa.length){
+    
     const nuovoElemento = document.createElement("li");
+    
     nuovoElemento.innerHTML = listaSpesa[i];
+    
     listaElementi.appendChild(nuovoElemento);
+    
     i++;
   }
 
